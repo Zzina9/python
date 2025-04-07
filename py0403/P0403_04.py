@@ -19,7 +19,7 @@ while True:
     print("2. 로또번호 입력")
     print("3. 로또번호 당첨확인")
     print("4. 로또리스트 모두 확인")
-    print("5. 내가입력한 로또번호 확인")
+    print("5. 내가 입력한 로또번호 확인")
     print("0. 프로그램 종료")
     print("-"*30)
     choice = int(input("원하는 번호를 입력하세요.>> "))

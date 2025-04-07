@@ -82,11 +82,12 @@ while True:
                 print("[ 로또리스트 모두 확인 ]")
                 print(lotto)
     elif choice == 5:
-                print("[ 내가입력한 로또번호 확인 ]")
+                print("[ 내가 입력한 로또번호 확인 ]")
                 my_lotto.sort()
                 print(my_lotto)
                 # reverse=True
     else:
                 print("[ 프로그램 종료 ]")
                 break
+            
                         
