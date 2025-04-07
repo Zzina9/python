@@ -1,6 +1,5 @@
 from stu_func import *
 import random 
-
 students = []
 
 ##### 파일 불러오기
