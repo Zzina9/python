@@ -15,6 +15,20 @@ class Student:
         self.avg = (kor+eng+math)/3  
         self.rank = 0 
         Student.count += 1           # 1증가
+        
+    def stu_total(self):
+        self.total=self.kor+self.eng+self.math
+    def stu_avg(self):
+        self.avg=self.total/3
+        
+    def __le__(self,s):
+        return (self.total<=s.total)
+        
+    def __ge__(self,s):
+        return(self.total>=s.total)
+    
+    def __eq__(self,s) :#다른 객체 1개를 매개변수로 전달 받음.
+        return(self.total==s.total) #True,다르면 False
     
     def __str__(self):
         return f"""{self.no},{self.name},{self.kor},{self.eng},{self.math},{self.total},{self.avg:.2f},{self.rank}"""

@@ -15,7 +15,6 @@ for i in range(5):
     for j in range(5):
         a_list[i][j]=first_list[5*i+j] #0,1,2,3=...24
 
-
 #2차원 형태로 출력
 while True:
     print(" [좌표 맞추기 프로그램]")

@@ -23,11 +23,9 @@ while i<6:
 #           lotto_list.append(my_list[k])
 #           break
 for j in range(6):
-    if  ran_list [j] in my_list:
+    if ran_list [j] in my_list:
      lotto_count=lotto_count +1
      lotto_list.append(my_list[j])
-
-       
 
 print("랜덤 번호:{}".format(ran_list))
 print("입력 번호:{}".format(my_list))
